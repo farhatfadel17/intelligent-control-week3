@@ -1,0 +1,13 @@
+Nama : Farhat Fadel Yusmanan 
+NIM : 224308033
+Kelas : TKA-6B
+Akun Github (Tautan) : https://github.com/farhatfadel17 
+Student Lab Assistant :Mbak Dwi
+
+Analisis
+    Percobaan ini melakukan teknologi deteksi objek dalam pencahayaan yang rendah atau bisa disebut Night Vision. Night Vision merupakan kemampuan untuk melihat baik dalam lingkungan gelap. Sumber-sumber yang tidak bisa ditangkap oleh kamera biasa mampun didibaca oleh kamera night vision yang memiliki kemampuan mengumpulkan. Cahaya yang berasal dari bulan, bintang, atau lampu yang ada di sekitar objek merupakan sumber yang bisa ditangkap kamera night vision. menggunakan model deep learning dengan klasifikasi CNN. Model CNN dilatih untuk membedakan antara gambar yang terang, sedang, dan gelap, serta mengenali objek dalam kondisi minim cahaya. Pada percobaan ini menggunakan dataset yang berisi klasifikasi pemandangan seperti mountain, building, sea, street dan glacier untuk digunakan sebagai prediksi untuk setiap gambar/kamera yang dideteksi dengan melalui proses pelatihan yang dilakukan dengan CNN. Kemudian, model tersebut dapat memproses gambar pemandangan baru dan menghasilkan prediksi kategori berdasarkan dataset yang telah dipelajari. Kemudian, Fungsi analyze_light_spectrum memberikan analisis yang meliputi tentang luminance dalam gambar dengan cara menghitung rata-rata luminance, menghasilkan histogram untuk visualisasi distribusi luminance seperti nilai brightness. Fungsi ini dapat digunakan dalam berbagai aplikasi, seperti pengukuran pencahayaan, analisis gambar, dan pengendalian otomatisasi berdasarkan tingkat cahaya.
+
+
+Diskusi
+    	Program ini digunakan untuk mengukur tingkat pencahayaan di lingkungan tertentu, yang digunakan dalam pengambilan keputusan untuk pengaturan pencahayaan tambahan atau untuk menyesuaikan pengaturan kamera. Selain itu, model CNN dapat digunakan untuk meningkatkan akurasi dengan memberikan  tambahan tentang kondisi pencahayaan saat gambar diambil menngunakan dataset. Di dalam dataset variasi klasifikasi gambar  untuk training sangat penting untuk pelatihan model yang efektif. Dataset yang kurang lengkap dalam kondisi pencahayaan atau jenis objek dapat mengakibatkan model yang kurang akurat.
+
